@@ -1,0 +1,23 @@
+n=int(input("enter a numbre:"))
+l=[]
+d={}
+for i in range(n):
+    x=int(input("enter a number:"))
+    l.append(x)
+j=1
+for i in 1:
+    if i%2==0:
+        if i>=50:
+            d[i]='yes'
+        else:
+            d[i]='no'
+print(d)            
+O/P
+enter a numbre:6
+enter a number:1
+enter a number:2
+enter a number:3
+enter a number:4
+enter a number:5
+enter a number:60
+{2:'no', 4:'no', 60:'yes'}
